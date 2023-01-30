@@ -1,6 +1,6 @@
 {
   "name": "chain.ts",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Enjoy clarisity of the pipe syntax in Elixir within the current javascript environment in type-safe manner.",
   "keywords": [
     "chain",
