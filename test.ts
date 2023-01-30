@@ -1,4 +1,9 @@
-import { Chain, createChain } from './core'
+import _Chain, { Chain, createChain } from './core'
+
+console.assert(
+  _Chain == Chain,
+  'Chain is named export as well as default export',
+)
 
 console.assert(createChain == Chain.wrap, 'createChain is alias of Chain.wrap')
 

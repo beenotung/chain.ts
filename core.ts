@@ -29,3 +29,5 @@ export class Chain<T> {
 }
 
 export let createChain = Chain.wrap
+
+export default Chain

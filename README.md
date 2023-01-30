@@ -33,7 +33,10 @@ export class Chain<T> {
   unwrap(): T
   static wrap<T>(value: T): Chain<T>
 }
+
 export let createChain: typeof Chain.wrap
+
+export default Chain
 ```
 
 ## Usage Example
