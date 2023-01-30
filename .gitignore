@@ -1,0 +1,9 @@
+node_modules/
+*-lock.*
+*.lock
+.pnpm-debug.log
+tsconfig.tsbuildinfo
+.env
+*.js
+*.d.ts
+*.tgz

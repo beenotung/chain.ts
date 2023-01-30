@@ -1,19 +1,20 @@
 {
   "name": "chain.ts",
   "version": "0.0.0",
-  "description": "General utility modules to build your own blockchain",
+  "description": "Enjoy clarisity of the pipe syntax in Elixir within the current javascript environment in type-safe manner.",
   "keywords": [
-    "blockchain",
-    "utility",
-    "DIY",
-    "p2p",
-    "network",
-    "storage",
-    "consensus",
-    "application"
+    "chain",
+    "operations",
+    "nested",
+    "function",
+    "state",
+    "side effect",
+    "syntax sugar",
+    "typescript",
+    "language feature"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "Beeno Tung <aabbcc1241@yahoo.com.hk> (https://beeno-tung.surge.sh)",
+  "license": "BSD-2-Clause",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/beenotung/chain.ts.git"
@@ -22,8 +23,20 @@
   "bugs": {
     "url": "https://github.com/beenotung/chain.ts/issues"
   },
-  "main": "index.js",
+  "main": "core.js",
+  "types": "core.d.ts",
+  "files": [
+    "core.js",
+    "core.d.ts"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tsc --noEmit",
+    "build": "tsc -p ."
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.4"
   }
 }
